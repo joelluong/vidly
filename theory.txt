@@ -1,0 +1,22 @@
+Section 9: Performance Optimization
+1. Overview: Premature optimization is the root of all evils.
+* Most web application follow three tier architecture: Data (SQL), Application (IIS - Web Server), Client (Browser)
+* Optimization in the data tier will have the most gain and as we move towards the client here our optimization will have less OBSERVABLE result
+* Optimization rules
+** Do not sacrifile the maintainability of your code to premature optimization
+** Be realistic and think like an "engineer"
+** Be pragmatic and ensure your efforts have observable results and give value (to the users and business, dont wasting your time and your employer's money)
+
+2. Data Tier
+* Data Tier: Schema and Queries
+* Schema issues: Primary Keys, Relationships and Indexes
+* Schema issues: Entities, Attributes, Value (EAV)
+* Problems with EAV pattern: 
+** No O/RMs
+** Long, gigantic queries
+** Extremely slow
+
+* Queries
+** Optimizing Queries: Use Execution Plan in SQL server.
+** Create a "read" database (look up CQRS)
+** Use caching
