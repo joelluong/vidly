@@ -1,4 +1,4 @@
-# MyShop
+# Vidly
 Vidly Video Rental Demo Project
 
 ## Table of Contents
