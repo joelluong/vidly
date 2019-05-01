@@ -20,3 +20,9 @@ Section 9: Performance Optimization
 ** Optimizing Queries: Use Execution Plan in SQL server.
 ** Create a "read" database (look up CQRS)
 ** Use caching
+
+3. Application Tier
+* Output Caching
+* Data Caching
+* Release Builds -> No performance profiling
+* Disabling Session -> No performance profiling
